@@ -8,20 +8,46 @@ This html file is for marking up a letter using HTML
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="Eleanor Gaye">
-    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Dr.Eleanor Gaye">
+    <title> Part 1 - Letter </title>
+    <style>
+         body {
+         max-width: 800px;
+         margin: 0 auto;
+         }
+
+         .sender-column {
+         text-align: right;
+         }
+
+         h1 {
+         font-size: 1.5em;
+         }
+
+         h2 {
+         font-size: 1.3em;
+         }
+
+         p,ul,ol,dl,address {
+         font-size: 1.1em;
+         }
+
+         p, li, dd, dt, address {
+         line-height: 1.5;
+         }
+      </style>   
 </head>
 <body>
 
 <address class="sender-column">
 <p>
-    <b>Dr. Eleanor Gaye </b> <br>
+    <strong>Dr. Eleanor Gaye </strong> <br>
     Awesome Science faculty <br>
     University of Awesome <br>
     Bobtown, CA 99999, <br>
     USA <br>
-    <b>Tel:</b> 123-456-7890 <br>
-    <b>Email:</b> no_reply@example.com <br>
+    <strong>Tel:</strong> 123-456-7890 <br>
+    <strong>Email:</strong> no_reply@example.com <br>
 </p>
 </address>
 
@@ -29,20 +55,20 @@ This html file is for marking up a letter using HTML
 
 <address>
 <p>
-    <b>Miss Eileen Dover</b> <br>
+    <strong>Miss Eileen Dover</strong> <br>
     4321 Cliff Top Edge <br>
     Dover, CT9 XXX <br>
     UK <br>
 </p>
 </address>
 
-Re: Eileen Dover university application
+<h1>Re: Eileen Dover university application</h1>
 
-Dear Eileen,
+<p>Dear Eileen,</p>
 
-Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your PhD next year. I will answer your questions one by one, in the following sections.
+<p>Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your <abbr title="Doctor of Philosophy">PhD</abbr> next year. I will answer your questions one by one, in the following sections.</p>
 
-Starting dates
+<h3>Starting dates</h3> 
 
 We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows:
 
